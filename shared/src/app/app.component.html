@@ -1,0 +1,64 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+  
+      <div id="cpbheader" >
+        <div id="header">
+          <h1 id="lineOfBusiness">Private Bank</h1> 
+          <div id="masthead" class="master">   
+            <div class="topCurve">Top Masthead Curve</div>       
+              <img id="logo" style="padding-left: 7px;padding-bottom: 20px;" title="Citi Never Sleeps" src="/assets/images/citiNeverSleeps1.gif">
+            <div class="btmCurve">Bottom Masthead Curve</div>
+          </div>
+        </div>
+      </div>
+      
+  
+    
+      
+  <div class="content-ftpass">
+        <div class="topCurve">Top Masthead Curve</div> 
+        <div class="curvContent">
+          <form class="flex-layout" #formData="ngForm" (ngSubmit)="registerUser(formData)" >
+            <div class="flex-1">
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-4 col-form-label">Account Number</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="inputEmail3" name = "accountNumber" [(ngModel)]="accountNumber" placeholder="Account Number">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-4 col-form-label">Phone NUmber</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="inputPassword3" name = "PhoneNumber" [(ngModel)]="PhoneNumber" placeholder="Phone Number">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-4 col-form-label">Government ID</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="inputPassword3" name = "govtId" [(ngModel)]="govtId" placeholder="Govenment Id">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+            </div>
+            <div class="margin-left-35">
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-4 col-form-label">Enter OTP</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="inputPassword3" placeholder="OTP">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Submit OTP</button>
+                      </div>
+                    </div>
+            </div>
+          </form>
+          </div>
+          <div class="btmCurve">Top Masthead Curve</div>
+        </div>

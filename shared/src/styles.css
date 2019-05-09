@@ -1,0 +1,128 @@
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+    
+    
+    
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: "interstate-lightregular", arial, verdana, sans-serif;
+        vertical-align: baseline;
+    }
+    
+    body {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        zoom: 1;
+        font-size: 100%;
+        font-family: Arial;
+        min-width: 960px;
+        height: 100%;
+        
+        background: white;
+    }
+    #header {
+        margin: 10px auto 0px auto;
+        width: 955px;
+    }
+    
+    /* define focus styles */
+    :focus {
+        outline: 0;
+    }
+    
+
+    
+    .curvContent_trm {
+        margin: 20px 35px;
+        color: #FFF;
+    }
+    
+    .curvContent_trm_ictoes {
+        margin: 25px 35px;
+        color: #FFF;
+        width: 620px;
+    }
+    
+    .curvContent_ictoes {
+        font-size: 22px;
+    }
+    
+    .curvContent_margin_ictoes {
+        margin-top: 10px
+    }
+    
+ 
+    .topCurve { 
+        background: url("/assets/images/borderCurve.png") 0 -9px no-repeat;
+       height: 14px;
+        text-indent: -9999px;
+        padding:0px;
+    }
+    .btmCurve { 
+         margin: auto auto 0px auto;
+        background: url("/assets/images/borderCurve.png") 0 0 no-repeat;
+        clear:both;
+        height: 9px;
+        overflow: hidden;
+        text-indent: -9999px;
+        width: 955px;
+    }
+    .master{
+    margin-left: 136px;CLEAR: both;
+    Z-INDEX: 500;
+    BACKGROUND: url("/assets/images/borderMid.png") repeat-y 0px 0px;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 0px auto;
+    WIDTH: 955px;
+    POSITION: relative;
+    
+    }
+    .curvContent{
+        margin:20px 35px;
+        }
+    .fontFamily {
+        font-family: Tahoma,Arial,Helvetica,sans-serif;
+    
+    } 
+    h1#lineOfBusiness {
+        color: #666;
+        float: left !important;
+        font-size: 1.8em !important;
+        font-weight: normal !important;
+        margin: 6px 0 7px 0 !important;
+        border : 0 !important;
+        padding: 0 0 0 0 !important;
+    }
+    h1{margin:10px 0 10px 0;font-size:24px;font-weight: bold;}
+    .content-ftpass {CLEAR: both;BACKGROUND: url(/assets/images/borderMid.png) repeat-y 0px 0px;MARGIN: 15px auto 0px;WIDTH: 955px;}
+    .curvContent_margin_decline {
+      font-style:Arial;
+      color:#666666 !important;
+      font-size: 9pt !important;
+      font-weight:bold !important;
+    }
+    .flex-layout {
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-1 {
+        flex-grow: 1;
+    }
+    .margin-left-35 {
+        margin-left: 35px;
+    }
